@@ -1,0 +1,21 @@
+Python Environments
+
+venv/
+pycache/
+*.pyc
+
+Data and Logs
+
+data/raw/
+data/processed/
+*.jsonl
+*.log
+
+Operating System Files
+
+.DS_Store
+Thumbs.db
+
+API Keys and Environment Variables
+
+.env
