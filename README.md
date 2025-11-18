@@ -72,3 +72,22 @@ Clone the repo:
 git clone https://github.com/dimpukumar16/Event_and_Timeline_Genaration_of_news.git
 cd Event_and_Timeline_Genaration_of_news
 ```
+## **3. Running the Application**
+
+Start FastAPI server:
+```bash
+uvicorn app.api:app --reload
+```
+
+Server starts at:
+
+```bash
+http://127.0.0.1:8000
+```
+
+## **4. Using the Web UI**
+
+```bash
+UI/index.html
+```
+
