@@ -5,25 +5,6 @@ It explicitly models **cause–effect relationships** between events using a cau
 
 Built as a **FastAPI microservice**, the system runs an end-to-end pipeline from search → event extraction → graph compression → final narrative timeline generation.
 
----
-
-## 🚀 Research Novelty: Causal Narrative Pipeline
-
-Most existing TLS models (CHRONOS, LLM-TLS) fail to model narrative flow or causality.  
-This project introduces **causal reasoning** into timeline summarization.
-
----
-
-## 🔍 Comparison to Existing Approaches
-
-| **Feature** | **Baseline TLS (CHRONOS / LLM-TLS)** | **Causal Narrative Model (Ours)** |
-|------------|----------------------------------------|-----------------------------------|
-| **Goal** | Retrieve & cluster documents | Generate a coherent causal story |
-| **Method** | Iterative search / semantic clustering | Event Graph Compression with causal edges |
-| **Saliency** | Cluster size or date frequency | PageRank over causal influence |
-| **Output** | Long, redundant event list | Concise narrative explaining WHY events happened |
-
----
 
 ## 🧠 Methodology: Three-Phase Pipeline
 
