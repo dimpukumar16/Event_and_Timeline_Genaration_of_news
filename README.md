@@ -71,3 +71,4 @@ Clone the repo:
 ```bash
 git clone https://github.com/dimpukumar16/Event_and_Timeline_Genaration_of_news.git
 cd Event_and_Timeline_Genaration_of_news
+```
